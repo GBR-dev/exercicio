@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício EBAC</title>
+        <link rel="stylesheet" href="./main.css" />
+    </head>
+    
+    <body>
+        <div class="container">
+
+            <h1>Gabriel Exercício EBAC</h1>
+            <br>
+
+            <h2>Formulário Simples</h2>
+            <br>
+
+            <form id="frmspl">
+
+                <!-- Campo A -->
+                <input type="number" id="campoA" required placeholder="Campo A (Número)" />
+                <br>
+
+                <!-- Campo B -->
+                <input type="number" id="campoB" required placeholder="Campo B (Número)" />
+                <br>
+
+                <!-- Mensagem de erro -->
+                <p class="error-message" id="error-message">
+                    O campo B precisa ser maior que o campo A!
+                </p>
+
+
+                <!-- Mensagem de sucesso -->
+                <p class="sucess-message" id="success-message">
+                    Formulário válido! O campo B é maior que o campo A.
+                </p>
+
+                <button id="btn-enviar" type="submit">Enviar</button>
+            </form>
+
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
